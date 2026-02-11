@@ -1,0 +1,45 @@
+# Virtual environment
+venv/
+.venv/
+env/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+*.egg
+
+# Models (large binary files)
+models/*.joblib
+models/*.pkl
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Logs (keep structure, ignore contents)
+logs/*.csv
+
+# Backup data files
+data/*_backup.csv
+
+# Raw downloads
+data/raw/
+
+# Byte-compiled
+*.pyc
+
+# Environment variables
+.env
+data/online_retail.xlsx
+*.xlsx
